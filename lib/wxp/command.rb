@@ -16,6 +16,7 @@ module Wxp
 
     class Command < CLAide::Command # < 继承
         require 'wxp/command/op'
+        require 'wxp/command/say'
 
         self.abstract_command = true
         self.command = 'wxp'
