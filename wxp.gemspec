@@ -43,6 +43,5 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "claide", ">= 1.0.2", "< 2.0"
   spec.add_runtime_dependency "molinillo", "~> 0.6.6"
   spec.add_runtime_dependency "colored2", "~> 3.1"
-  spec.add_runtime_dependency "cocoapods", '>= 1.8.4'
 
 end
